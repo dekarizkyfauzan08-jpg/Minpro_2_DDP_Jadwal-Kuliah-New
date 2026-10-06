@@ -744,12 +744,7 @@ yang digunakan untuk mencari jadwal berdasarkan hari.
 <img width="212" height="88" alt="Cuplikan layar 2026-10-06 100646" src="https://github.com/user-attachments/assets/318a3da3-deac-4520-b10b-4808f5d58750" />
 
 
-## Login Admin
-
-<img width="212" height="88" alt="image" src="https://github.com/user-attachments/assets/f14fe41c-a9be-4a62-b5d4-d6bfe7633548" />
-
-
-## Menu Admin
+## Login dan menu Admin
 
 <img width="346" height="160" alt="image" src="https://github.com/user-attachments/assets/c7272f72-b8f5-4d94-baa7-3e0d0d3a569c" />
 

@@ -33,8 +33,6 @@ Bagian ini digunakan untuk mengimpor library yang diperlukan oleh program.
 * pwinput digunakan untuk menerima input password agar karakter password tidak ditampilkan secara langsung.
 * PrettyTable digunakan untuk menampilkan data jadwal dalam bentuk tabel yang lebih rapi.
 
----
-
 # 2. Data Akun
 
 <img width="553" height="101" alt="image" src="https://github.com/user-attachments/assets/0f2752f9-eb37-4178-84e0-f73973c1c4ac" />
@@ -60,8 +58,6 @@ Role     = admin, user
 
 Role digunakan untuk menentukan menu yang dapat diakses oleh pengguna setelah berhasil login.
 
----
-
 # 3. Data Jadwal
 
 <img width="952" height="97" alt="image" src="https://github.com/user-attachments/assets/3fff4165-0ec3-48f7-a46d-7a1a814fe68a" />
@@ -69,7 +65,7 @@ Role digunakan untuk menentukan menu yang dapat diakses oleh pengguna setelah be
 
 ### Penjelasan
 
-Variabel `jadwal` merupakan **nested dictionary** yang digunakan untuk menyimpan data jadwal kuliah.
+Variabel jadwal merupakan **nested dictionary** yang digunakan untuk menyimpan data jadwal kuliah.
 
 Setiap jadwal memiliki beberapa informasi:
 
@@ -99,7 +95,6 @@ Ruang       = C403
 
 Data jadwal inilah yang nantinya dapat dikelola oleh admin dan dilihat oleh user.
 
----
 
 # 4. Daftar Hari
 
@@ -116,8 +111,6 @@ Data ini digunakan ketika pengguna memasukkan hari pada saat:
 * Mencari jadwal.
 
 Dengan adanya daftar ini, program dapat melakukan validasi agar pengguna tidak memasukkan nama hari yang tidak sesuai.
-
----
 
 # 5. Fungsi bersihkan_layar()
 
@@ -137,8 +130,6 @@ Program akan mendeteksi sistem operasi menggunakan os.name.
 
 Tidak menghasilkan output teks secara langsung. Fungsi ini hanya membersihkan layar terminal.
 
----
-
 # 6. Fungsi input_tidak_kosong()
 
 <img width="437" height="200" alt="image" src="https://github.com/user-attachments/assets/0433ecbc-c282-4c2d-93d7-9d2ee5be8398" />
@@ -156,11 +147,8 @@ Fungsi .strip() digunakan untuk menghilangkan spasi yang terdapat di awal atau a
 
 Jika pengguna tidak memasukkan data:
 
-```text
-Mata kuliah: 
-Data tidak boleh kosong
-Mata kuliah:
-```
+<img width="247" height="87" alt="image" src="https://github.com/user-attachments/assets/e210d5ad-5b7d-4b05-a09e-67b14c38e984" />
+
 
 Jika pengguna memasukkan data:
 
@@ -228,8 +216,7 @@ Contohnya:
 
 ```text
 07:30
-13:45
-21:00
+13:00
 ```
 
 Program melakukan beberapa pemeriksaan:
@@ -255,8 +242,6 @@ False
 
 jika format salah.
 
----
-
 # 9. Fungsi input_jam()
 
 <img width="522" height="183" alt="image" src="https://github.com/user-attachments/assets/ba064990-cdf1-4684-9b96-01f41db47fc4" />
@@ -272,10 +257,8 @@ Fungsi input_jam() memanfaatkan fungsi cek_jam() untuk memeriksa apakah format w
 
 Input salah:
 
-```text
-Jam (contoh 07:30): 25:70
-Format jam salah, gunakan HH:MM
-```
+<img width="298" height="157" alt="image" src="https://github.com/user-attachments/assets/b5fb7105-a059-4794-9335-4521923276e9" />
+
 
 Input benar:
 
@@ -284,8 +267,6 @@ Jam (contoh 07:30): 07:30
 ```
 
 Input kemudian diterima oleh program.
-
----
 
 # 10. Fungsi buat_id_baru()
 
@@ -317,8 +298,6 @@ maka ID berikutnya akan menjadi:
 ```
 
 Dengan demikian, pengguna tidak perlu memasukkan ID secara manual ketika menambahkan jadwal.
-
----
 
 # 11. Fungsi tampilkan_jadwal()
 
@@ -394,8 +373,6 @@ Jadwal berhasil ditambahkan
 
 Fungsi ini merupakan bagian dari operasi **Create** pada konsep CRUD.
 
----
-
 # 13. Fungsi ubah_jadwal()
 
 <img width="251" height="51" alt="image" src="https://github.com/user-attachments/assets/86305619-51b5-4305-91aa-f4a109e33a4e" />
@@ -420,16 +397,7 @@ ID jadwal tidak tersedia
 
 ### Contoh Output
 
-```text
-Ubah Jadwal
-
-Masukkan ID jadwal: 1
-Mata kuliah baru: Sistem Informasi
-Hari: Selasa
-Jam (contoh 07:30): 09:00
-Ruang baru: C401
-Jadwal berhasil diubah
-```
+<img width="520" height="267" alt="image" src="https://github.com/user-attachments/assets/5e812dd9-1a94-404a-9d27-e9e8b21299d7" />
 
 Fungsi ini merupakan bagian dari operasi **Update** pada konsep CRUD.
 
@@ -466,20 +434,13 @@ Jika pengguna memasukkan selain `y`, penghapusan dibatalkan.
 
 # Contoh Output
 
-```text
-Hapus Jadwal
+<img width="528" height="222" alt="image" src="https://github.com/user-attachments/assets/3318d91b-eef6-4827-8a90-05e20e2c16a5" />
 
-Masukkan ID jadwal: 2
-Yakin ingin menghapus? (y/n): y
-Jadwal berhasil dihapus
-```
 
 Jika dibatalkan:
 
-```text
-Yakin ingin menghapus? (y/n): n
-Penghapusan dibatalkan
-```
+<img width="450" height="200" alt="image" src="https://github.com/user-attachments/assets/a9bee248-ce16-42dd-bb67-678a2042edd9" />
+
 
 Fungsi ini merupakan bagian dari operasi **Delete** pada konsep CRUD.
 
@@ -496,7 +457,7 @@ Fungsi ini digunakan untuk mencari jadwal berdasarkan hari tertentu.
 
 Program meminta pengguna memasukkan hari, kemudian melakukan perulangan terhadap seluruh data jadwal.
 
-Jika hari pada jadwal sama dengan hari yang dicari, data tersebut dimasukkan ke dictionary `hasil`.
+Jika hari pada jadwal sama dengan hari yang dicari, data tersebut dimasukkan ke dictionary hasil.
 
 Jika tidak ditemukan jadwal, program akan menampilkan:
 
@@ -508,17 +469,7 @@ Jika ditemukan, program akan menampilkan jadwal berdasarkan hari yang dipilih.
 
 # Contoh Output
 
-```text
-Cari Jadwal Berdasarkan Hari
-Hari: Senin
-
-Jadwal Hari Senin
-Mata Kuliah = Konsep Sistem Informasi
-Hari        = Senin
-Jam         = 07.30
-Ruang       = C402
-```
----
+<img width="545" height="241" alt="image" src="https://github.com/user-attachments/assets/d2575f6f-e426-4228-8efe-c567c5b028fb" />
 
 
 # 16. Fungsi login()
@@ -561,21 +512,11 @@ Jika salah, kesempatan login dikurangi.
 
 ### Contoh Login Berhasil
 
-```text
-LOGIN
-Username: admin
-Password:
-Login berhasil, selamat datang admin
-```
+<img width="390" height="188" alt="image" src="https://github.com/user-attachments/assets/3061f699-e867-408c-a1ab-01bbb6f3375e" />
 
 ### Contoh Login Gagal
 
-```text
-LOGIN
-Username: admin
-Password:
-Username atau password salah, sisa kesempatan: 2
-```
+<img width="473" height="221" alt="image" src="https://github.com/user-attachments/assets/9af63a19-26f3-4cc9-9a8a-23f8949636ea" />
 
 Jika tiga kali gagal:
 

@@ -8,7 +8,7 @@
 
 # Deskripsi Program
 
-Program **Jadwal Kuliah** merupakan aplikasi berbasis **Python Command Line Interface (CLI)** yang digunakan untuk mengelola data jadwal perkuliahan.
+Program **Jadwal Kuliah**  adalah program yang digunakan untuk mengelola data jadwal perkuliahan.
 
 Program memiliki sistem **login dan role**, yaitu:
 

@@ -1,12 +1,12 @@
-# Program Jadwal Kuliah
+## Program Jadwal Kuliah
 
-# Nama : Deka Rizky Fauzan
+## Nama : Deka Rizky Fauzan
 
-# Nim  : 2609116052
+## Nim  : 2609116052
 
-# Kelas : B
+## Kelas : B
 
-## Deskripsi Program
+# Deskripsi Program
 
 Program **Jadwal Kuliah** merupakan aplikasi berbasis **Python Command Line Interface (CLI)** yang digunakan untuk mengelola data jadwal perkuliahan.
 
@@ -20,7 +20,7 @@ Program menggunakan struktur data **Dictionary dan Nested Dictionary** untuk men
 
 ---
 
-## 1. Import Library
+# 1. Import Library
 
 <img width="350" height="91" alt="image" src="https://github.com/user-attachments/assets/9b821a87-140b-4932-b066-c6c12defc9ef" />
 

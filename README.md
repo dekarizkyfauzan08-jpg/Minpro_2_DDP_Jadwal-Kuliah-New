@@ -769,25 +769,3 @@ Karena flowchart saya kebesaran jadi saya pasang satu satu dari atas-bawah
 
 <img width="1261" height="1247" alt="image" src="https://github.com/user-attachments/assets/6664c456-4467-43c3-b055-d7459fe7fda7" />
 
-
-
-# 22. Kesimpulan
-
-Program **Jadwal Kuliah** merupakan program Python berbasis CLI yang menerapkan beberapa konsep dasar pemrograman, yaitu:
-
-* Variabel dan tipe data.
-* Dictionary.
-* Nested Dictionary.
-* List.
-* Function.
-* Percabangan if-elif-else.
-* Perulangan while dan for.
-* Validasi input.
-* Sistem login.
-* Role/hak akses pengguna.
-* CRUD.
-* Pencarian data.
-* Penggunaan library eksternal.
-* Pemformatan data menggunakan PrettyTable.
-
-Program ini dibuat untuk membantu pengelolaan data jadwal kuliah secara sederhana melalui terminal. Admin memiliki hak untuk mengelola data jadwal, sedangkan user/mahasiswa hanya memiliki akses untuk melihat dan mencari jadwal.

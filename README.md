@@ -12,8 +12,9 @@ Program **Jadwal Kuliah** merupakan aplikasi berbasis **Python Command Line Inte
 
 Program memiliki sistem **login dan role**, yaitu:
 
-* **Admin**: dapat menambah, melihat, mengubah, menghapus, dan mencari jadwal kuliah.
-* **User/Mahasiswa**: hanya dapat melihat dan mencari jadwal kuliah.
+Admin : dapat menambah, melihat, mengubah, menghapus, dan mencari jadwal kuliah.
+
+User/Mahasiswa : hanya dapat melihat dan mencari jadwal kuliah.
 
 Program menggunakan struktur data **Dictionary dan Nested Dictionary** untuk menyimpan data akun dan jadwal. Program juga menggunakan beberapa library Python, yaitu os, time, pwinput, dan prettytable.
 
@@ -72,11 +73,11 @@ Variabel `jadwal` merupakan **nested dictionary** yang digunakan untuk menyimpan
 
 Setiap jadwal memiliki beberapa informasi:
 
-* id → identitas jadwal.
-* matkul → nama mata kuliah.
-* hari → hari perkuliahan.
-* jam → waktu perkuliahan.
-* ruang → ruangan perkuliahan.
+* id = identitas jadwal.
+* matkul = nama mata kuliah.
+* hari = hari perkuliahan.
+* jam = waktu perkuliahan.
+* ruang = ruangan perkuliahan.
 
 Contoh data awal
 
@@ -755,12 +756,14 @@ yang digunakan untuk mencari jadwal berdasarkan hari.
 
 ---
 # 21. Flowchart
+Karena flowchart saya kebesaran jadi saya pasang satu satu dari atas-bawah
 
 <img width="1507" height="1044" alt="image" src="https://github.com/user-attachments/assets/7d9d9850-c5f7-4768-9ad7-4d320627f7b6" />
 
 
 
-<img width="1465" height="1073" alt="image" src="https://github.com/user-attachments/assets/b9307f56-cf89-4c2b-ad62-d47db3fe7475" />
+<img width="1465" height="1073" alt="image" src="https://github.com/user-attachments/assets/7856361a-1020-4296-9ebe-b26747f3569b" />
+
 
 
 

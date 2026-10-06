@@ -754,8 +754,21 @@ yang digunakan untuk mencari jadwal berdasarkan hari.
 <img width="515" height="177" alt="image" src="https://github.com/user-attachments/assets/233b28f1-9614-476c-9091-4a70645e9a78" />
 
 ---
+# 21. Flowchart
 
-# 21. Kesimpulan
+<img width="1507" height="1044" alt="image" src="https://github.com/user-attachments/assets/7d9d9850-c5f7-4768-9ad7-4d320627f7b6" />
+
+
+
+<img width="1465" height="1073" alt="image" src="https://github.com/user-attachments/assets/b9307f56-cf89-4c2b-ad62-d47db3fe7475" />
+
+
+
+<img width="1261" height="1247" alt="image" src="https://github.com/user-attachments/assets/6664c456-4467-43c3-b055-d7459fe7fda7" />
+
+
+
+# 22. Kesimpulan
 
 Program **Jadwal Kuliah** merupakan program Python berbasis CLI yang menerapkan beberapa konsep dasar pemrograman, yaitu:
 
